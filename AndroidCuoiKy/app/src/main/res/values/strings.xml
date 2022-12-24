@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Coffee Store</string>
+    <string name="signup">Đăng ký</string>
+    <string name="signin">"Đăng nhập "</string>
+    <string name="acceptsignin">Xác nhận</string>
+    <string name="password">"Mật khẩu "</string>
+    <string name="phonenum">"Số điện thoại "</string>
+    <string name="userName"> Tên khách hàng</string>
+    <string name="money"> Số tiền hiện có</string>
+    <string name="PointOwned"> Số điểm hiện có</string>
+    <string name="Infor"> Về chúng tôi</string>
+    <string name="LogOut"> Đăng xuất</string>
+    <string name="icon_user">icon_user</string>
+    <string name="th_ng_tin_kh_ch_h_ng">Thông tin khách hàng</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="balance_fragment">Balance Fragment</string>
+    <string name="itemName">Ten mon</string>
+</resources>

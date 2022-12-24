@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayoutMenu"
+    android:background="@color/whiteOrange"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/panelMenu"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/windowTitleSize"
+        android:orientation="horizontal"
+        android:weightSum="16">
+
+        <ImageView
+            android:id="@+id/imageBackButton"
+            android:src="@drawable/ic_baseline_navigate_before_24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_weight="2" />
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="11"
+            android:layout_gravity="center_vertical"
+            android:text="MENU"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30dp" />
+        <FrameLayout
+            android:id="@+id/btCart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgButton"
+                android:layout_gravity="center"
+
+                android:src="@drawable/ic_baseline_shopping_cart_24"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMenu"
+        android:padding="8dp"
+        android:layout_below="@+id/panelMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

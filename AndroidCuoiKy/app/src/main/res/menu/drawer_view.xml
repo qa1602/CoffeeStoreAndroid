@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "Navigaion_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user_name"
+            android:icon="@drawable/ic_user"
+            android:title="@string/userName" />
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@drawable/money"
+            android:title="@string/money" />
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/Infor"/>
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logOut"
+                android:icon="@drawable/logout"
+                android:title="@string/LogOut"/>
+        </menu>
+    </item>
+</menu>
